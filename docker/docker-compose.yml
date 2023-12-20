@@ -23,6 +23,7 @@ services:
       ipfs: 'ipfs:5001'
       ethereum: 'mainnet:http://janus_mainnet:23890'
       GRAPH_LOG: info
+      GRAPH_QUERY_CACHE_MAX_MEM: 256
   ipfs:
     networks:
       - quick_start_common_network
